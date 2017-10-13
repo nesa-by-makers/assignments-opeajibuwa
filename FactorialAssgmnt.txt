@@ -1,0 +1,22 @@
+//Function to compute factorial of 150
+var num = 150;
+fact =num;
+for (var i=0; i<num; i++)
+{fact = fact * (num -1);
+num--;
+}
+console.log("factorial" + " of " + 150 + " is " + fact);
+
+
+//Function to compute factorial of any number
+
+function Uwillbebeta (num)
+{ var num;
+fact=num;
+for (var i=0; i<num; i++)
+{fact = fact * (num -1);
+num--;
+}
+return fact;
+}
+console.log(Uwillbebeta(50));
